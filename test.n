@@ -1,0 +1,8 @@
+-log("Booting -N System");
+-set score = 0;
+-set player = "Alex";
+-run user(player);
+-run theme("blue");
+-run add(score, 5);
+-run add(score, 10);
+-log("System shutdown");
